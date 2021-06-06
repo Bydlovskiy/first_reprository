@@ -1,0 +1,264 @@
+@media screen and (max-width:960px) {
+    header{
+        padding: 40px 50px 0 48px;
+    }
+
+
+    .container {
+        width: 748px;
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height: 27px;
+        margin: 0 auto;
+    }
+
+    .Step1 {
+        width: 236px;
+        padding: 205px 20px 16px 20px;
+    }
+
+    .Step2 {
+        width: 236px;
+        padding: 255px 20px 16px 20px;
+    }
+
+    .Step3 {
+        width: 236px;
+        padding: 205px 20px 16px 20px;
+    }
+    .partner-block{
+        width: 492px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 95px auto 0;
+    }
+    .partners{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .partner{
+        width: 236px;
+    }
+    .button-see-other {
+        margin: 40px auto 0;
+    }
+    .discover-block1{
+        width: 236px;
+    }
+    .discover-block2{
+        width: 492px;
+    }
+    .footer-container{
+        width: 748px;
+    }
+    .design-logo{
+    margin: 0 0 0 120px;
+
+    }
+    .footer-dreamshare{
+        margin: 0 108px 0 0;
+    }
+    .company{
+        margin: 0 100px 0 0;
+    }
+
+}
+@media screen and (max-width:750px) {
+    header{
+        height: 496px;
+    }
+    .dreamshare{
+        margin: 97px 0 0;
+        
+    }
+    .header-options{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        
+    }
+    h1{
+        font-size: 30px;
+        line-height: 37px;
+        margin: 26px auto 0 ;
+        width: 272px;
+        height: 74px;
+    }
+    h3{
+        font-size: 18px;
+        line-height: 24px;
+        margin: 5px auto 0;
+        width: 280px;
+        height: 58px;
+    }
+    .button-find{
+        width: 280px;
+        height: 40px;
+    }
+    .container{
+        width: 320px;
+    }
+    .Dream-share-work-blocks{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center
+    }
+    .Step1{
+        width: 300px;
+        height: 240px;
+        background-image: url(../images/Step\ 1.png);
+        padding: 64px 30px 16px 20px;
+        margin: 0 0 10px;
+    }
+    .Step2{
+        width: 300px;
+        height: 240px;
+        background-image: url(../images/Step\ 2.png);
+        padding: 95px 30px 16px 20px;
+        margin: 0 0 10px;
+    }
+    .Step3{
+        width: 300px;
+        height: 240px;
+        background-image: url(../images/Step\ 3.png);
+        padding: 64px 30px 16px 20px;
+    }
+    .dream-title {
+        margin: 0 0 18px;
+        width: 250px;
+        height: 32px;
+    }
+    .partner-block {
+        width: 320px; 
+    }
+    .partners{
+        display: flex;
+        justify-content: center;
+    }
+    .partner{
+        width: 236px;
+        height: 205px;
+        margin: 16px 0 0 ;
+    }
+    .button-see-other{
+        margin: 36px auto 0 ;
+    }
+    .discover{
+        margin: 35px 0 0;
+        width: 320px;  
+    }
+    h2{
+        text-align: center;
+    }
+    .discover-block1 {
+        width: 300px;
+        height: 120px;
+       
+    }
+    .discover-block2{
+        width: 300px;
+        height: 120px;
+    }
+    .discover-block3{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 10px 0 0;
+    }
+    .discover-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 380px;
+    }
+    .discover-blocks{
+        margin: 0 auto;
+    }
+    .sports {
+        background-image: url(../images/Sport7.png);
+    }
+    
+    .wellness {
+        background-image: url(../images/Healath7.png);
+    }
+    
+    .extreme {
+        background-image: url(../images/Extreme7.png);
+        text-align: center;
+    }
+    
+    .games {
+        background-image: url(../images/Games7.png);
+    }
+    
+    .culture {
+        background-image: url(../images/Culture7.png);
+    }
+    
+    .enjomet {
+        background-image: url(../images/Culture\ Copy7.png);
+    }
+    
+    .travelling {
+        background-image: url(../images/Games\ Copy7.png);
+    }
+    .create{
+        width: 320px;
+        height: 158px;
+        margin: 35px 0 0 ;
+    }
+    .search{
+        flex-direction: column;
+        align-items: center;
+    }
+    .button-search-container{
+        margin: 10px 0 0;
+    }
+    input[type="text"] {
+        margin: 15px 0 0 ;
+    }
+    .create-text{
+        margin: 9px 0 0 ;
+    }
+
+    .footer-container{
+    
+        width: 320px;
+        height: 204px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-dreamshare{
+        margin: 0 0;
+    }
+    .company-menu{
+        width: 200px;
+        height: 69px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 14px;
+        line-height: 26px;
+        justify-content: space-around;
+    }    
+    .design-logo{
+        margin: 0 0;
+    }
+ .company {
+     margin: 13px 0 0;
+     align-items: center;
+    }
+    .design-logo{
+        align-items: center;
+    }
+
+
+
+
+
+    
+}

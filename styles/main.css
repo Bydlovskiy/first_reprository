@@ -1,0 +1,520 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+
+
+
+/* HEADER */
+
+header {
+    background-image: url(../images/Background.png);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    padding: 46px 291px 0 248px;
+}
+
+
+.header-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dreamshare {
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+}
+
+.log-in {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sing-up {
+
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+.sing-up-border {
+    width: 90px;
+    height: 36px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 19px;
+}
+
+.log-in-menu {
+    display: flex;
+}
+
+h1 {
+    margin: 147px auto 0;
+    width: 470px;
+    height: 126px;
+    text-align: center;
+    font-size: 52px;
+    line-height: 63px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+}
+
+h3 {
+    margin: 28px auto 0;
+    width: 396px;
+    height: 25px;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: Roboto;
+    color: #F7F3F2;
+    text-align: center;
+}
+
+.button-find {
+    width: 225px;
+    height: 40px;
+    background-color: #FF4E50;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 33px auto 0;
+}
+
+.button-find-href {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+
+/* CONTAINER */
+.container {
+    width: 940px;
+    margin: 95px auto 0;
+}
+
+
+/* DREAM BLOCKS */
+
+
+h2 {
+    font-size: 26px;
+    line-height: 32px;
+    color: #444444;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.Dream-share-work {
+    width: 100%;
+}
+
+.Dream-share-work-blocks {
+    width: 100%;
+    margin: 35px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Step1 {
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/Step\ 1\ image.png);
+    padding: 219px 25px 21px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Step2 {
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/Step\ 2\ image.png);
+    padding: 250px 25px 21px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Step3 {
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/Step\ 3\ image.png);
+    padding: 219px 25px 21px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.step {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    font-family: Montserrat;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 15px;
+}
+
+.dream-text {
+    font-size: 14px;
+    line-height: 14px;
+    font-family: Roboto;
+    color: #E3E3E3;
+    width: 250px;
+    height: 42px;
+    text-align: left;
+}
+
+.dream-title {
+    font-size: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    text-align: left;
+    margin: 0 0 25px;
+}
+
+/* PARTNER BLOCK */
+.partner-block {
+    width: 100%;
+    margin: 89px 0 0;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner {
+    width: 221px;
+    height: 224px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 19px;
+}
+
+.partner-foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 35px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.Bradley {
+    background-image: url(../images/Bitmap1.png);
+}
+
+.Marie {
+    background-image: url(../images/Bitmap2.png);
+}
+
+.Diana {
+    background-image: url(../images/Bitmap3.png);
+}
+
+.Christofer {
+    background-image: url(../images/Bitmap4.png);
+}
+
+.partner-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music {
+    background-color: #FF4E50;
+
+}
+
+.music1 {
+    width: 16px;
+    height: 16px;
+}
+
+.brush {
+    background-color: #19D4CA;
+}
+
+.camera {
+    background-color: #FFA710;
+}
+
+.airplane {
+    background-color: #667DF3;
+}
+
+.partner-name {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    text-align: center;
+    margin: 17px 0 0;
+
+}
+
+.partner-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.partner-text {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+    text-align: center;
+    width: 221px;
+    height: 57px;
+    margin: 12px 0 0;
+}
+
+.button-see-other {
+    width: 180px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 2px solid #FF4E50;
+    border-radius: 40px;
+    margin: 36px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-see-other-href {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF4E50;
+    text-decoration: none;
+}
+
+/* DISCOVER BLOCK */
+
+
+.discover {
+    width: 100%;
+    margin: 95px 0 0;
+
+}
+
+.discover-blocks {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 15px 0 0;
+}
+
+.discover-block {
+    height: 310px;
+    display: flex;
+    margin: 20px 0 0;
+    justify-content: space-between
+}
+.discover-block3{
+    height: 310px;
+    display: flex;
+    margin: 20px 0 0;
+    justify-content: space-between
+}
+
+.discover-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.discover-block1 {
+    height: inherit;
+    width: 300px;
+}
+
+.discover-block2 {
+    height: inherit;
+    width: 620px;
+}
+
+.sports {
+    background-image: url(../images/Sport.png);
+}
+
+.wellness {
+    background-image: url(../images/Healath.png);
+}
+
+.extreme {
+    background-image: url(../images/Extreme.png);
+    text-align: center;
+}
+
+.games {
+    background-image: url(../images/Games.png);
+}
+
+.culture {
+    background-image: url(../images/Culture.png);
+}
+
+.enjomet {
+    background-image: url(../images/Culture\ Copy.png);
+}
+
+.travelling {
+    background-image: url(../images/Games\ Copy.png);
+}
+
+/* CREATE BLOCK */
+.create {
+    width: 482px;
+    height: 158px;
+    display: flex;
+    align-content: center;
+    margin: 95px auto 0;
+    flex-direction: column;
+}
+
+.create-text {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+    margin: 43px auto 0;
+}
+
+input[type="text"] {
+    width: 299px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+    margin: 0 10px 0 0;
+}
+
+.search {
+    margin: 25px 0 0;
+    display: flex;
+}
+
+.button-search-container {
+    width: 172px;
+    height: 40px;
+    background-color: #FF4E50;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-search-href {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+/* FOOTER */
+
+footer {
+    border-top: 2px solid #FF4E50;
+    margin: 100px 0 0;
+    height: 224px;
+    display: flex;
+    align-content: space-between;
+}
+
+.footer-container {
+    width: 940px;
+    margin: 38px auto 0;
+    display: flex;
+    position: relative;
+
+}
+
+.footer-dreamshare {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF4E50;
+    margin: 0 122px 0 0;
+}
+
+.footer-menu {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    margin: 0 0 11px;
+}
+
+.company {
+    margin: 0 169px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.design-logo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 230px;
+    align-items: flex-end;
+}
+
+.designed-by {
+    font-family: Montserrat;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #CCCCCC;
+    margin: 0 0 7px;
+}
+
+ .company-menu {
+    display: flex;
+    width: 114px;
+    height: 156px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+    flex-direction: column;
+    
+
+}
+
